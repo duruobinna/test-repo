@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJTech Model Batch GROUP 2 - CustomThread Project</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #e9edf0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border-bottom: 5px solid #0073e6;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+        }
+        header h2 {
+            margin: 10px 0 0;
+            font-size: 1.5em;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .content img {
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        .steps {
+            list-style-type: decimal;
+            padding-left: 30px;
+            line-height: 1.8;
+            color: #333;
+            font-size: 1.1em;
+        }
+        .steps li {
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 4px solid #0073e6;
+        }
+        .steps li::marker {
+            color: #0073e6;
+            font-weight: bold;
+        }
+        h3 {
+            color: #003366;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 5px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+            border-top: 5px solid #0073e6;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>JJTech Model Batch GROUP 2</h1>
+    <h2>CustomThread Highly Available Website Project</h2>
+</header>
+
+<div class="container">
+    <div class="content">
+        <h3>Highly Available Web App Solutions Architecture</h3>
+        <img src="hawa-overview.png" alt="Highly Available Web App Solutions Architecture">
+        <h3>Highly Available Web App Solutions Architecture (Option B) </h3>
+        <img src="hawa-overview-b.png" alt="Highly Available Web App Solutions Architecture">        
+        <h3>Our Steps are:</h3>
+        <ul class="steps">
+            <li>Create a VPC and all the network infrastructure: Internet Gateway (IGW), public subnets, Appserver subnets, Database subnets, route tables, and security groups.</li>
+            <li>Launch an AWS Aurora DB cluster with multi-AZ replication for high availability.</li>
+            <li>Integrate ElastiCache for improved performance and caching.</li>
+            <li>Provision an Elastic File System (EFS) for shared storage across EC2 instances.</li>
+            <li>Create an Application Load Balancer (ALB) and configure a target group for load distribution.</li>
+            <li>Configure an Auto Scaling Group (ASG) with a launch template to automatically scale EC2 instances. Include user data to automate WordPress setup.</li>
+            <li>Deploy EC2 instances through the ASG for application hosting.</li>
+            <li>Implement CloudFront for global content caching and SSL termination.</li>
+            <li>Set up Route 53 for DNS management and traffic routing.</li>
+            <li>Configure a failover policy to an S3 static website in case of primary site failure.</li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>JJTech Model Batch GROUP 2 - CustomThread Project</p>
+</footer>
+
+</body>
+</html>

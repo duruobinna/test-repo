@@ -1,0 +1,39 @@
+Connection details to your database mydbcluster
+
+This is the only time you can view this password. Copy and save the password for your reference. If you lose the password, you must modify your database to change it. You can use a SQL client application or utility to connect to your database.
+Learn about connecting to your database 
+
+Master username
+admin
+
+Master password
+wKziObhI64SE
+
+Endpoint
+mydbcluster.cluster-ct0ks6gyqaiz.us-east-1.rds.amazonaws.com
+
+
+Writer DB Name: WPDatabase
+Endpoint Value of Writer DB: mydbcluster.cluster-ct0ks6gyqaiz.us-east-1.rds.amazonaws.com
+Master username: admin
+Master password: wKziObhI64SE
+
+Endpoint value of Reader DB (NOT Needed): mydbcluster.cluster-ro-ct0ks6gyqaiz.us-east-1.rds.amazonaws.com
+
+
+
+
+
+
+EFS File System
+Name: myWPEFS
+File System ID: fs-07f7c09e57219d11b
+
+
+ALB DNS
+myWPAppALB-1575769766.us-east-1.elb.amazonaws.com
+
+
+WordPress
+Username: wpadmin
+PW: wKziObhI64SE
